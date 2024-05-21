@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar-collapse {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust opacity as needed */
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-collapse.open {
+    display: block;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-collapse {
+      display: block !important;
+      position: relative;
+      top: auto;
+      left: auto;
+      width: auto;
+      background-color: transparent;
+    }
+  }
+
+@media screen and (max-width: 768px){
+    .responsive{
+       backdrop-filter: blur(100px);
+    }
+    
+}
+  
