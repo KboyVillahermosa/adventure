@@ -21,8 +21,8 @@ export function Component() {
               Home
             </Navbar.Link>
             <Navbar.Link href="#" className="text-indigo-600">About</Navbar.Link>
-            <Navbar.Link href="#" className="text-indigo-600">Services</Navbar.Link>
-            <Navbar.Link href="#" className="text-indigo-600">Pricing</Navbar.Link>
+            <Navbar.Link href="/message" className="text-indigo-600">Message</Navbar.Link>
+            <Navbar.Link href="/spline" className="text-indigo-600">Spline</Navbar.Link>
             <Navbar.Link href="#" className="text-indigo-600">Contact</Navbar.Link>
           </Navbar.Collapse>
         </Navbar>

@@ -30,6 +30,7 @@
     "mongoose": "^8.4.0",
     "nodemon": "^3.1.0",
     "react": "^18.2.0",
+    "react-awesome-shapes": "^0.1.12",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
   },
