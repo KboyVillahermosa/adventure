@@ -7,10 +7,10 @@ export function Component() {
   return (
     <>
       <main className="dark:bg-gray-900">
-        <Navbar className=" dark:bg-gray-900">
+        <Navbar className=" dark:bg-gray-900 bg-transparent">
           <Navbar.Brand href="">
             <img src="/logo.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
-            <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white text-indigo-600">3Design</span>
+            <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white text-indigo-600">Adventure Time</span>
           </Navbar.Brand>
           <div className="flex md:order-2">
             <Navbar.Toggle />
